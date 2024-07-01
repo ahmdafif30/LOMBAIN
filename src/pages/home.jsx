@@ -5,8 +5,8 @@ import Medsos from "../components/Medsos";
 function Home(props) {
   const { textColor = "bg-gradient-to-r from-[#BE2EE6] from-0% to-[#4B20DC] to-100% bg-clip-text text-transparent" } = props;
   return (
-    <div className="flex justify-around items-center w-full min-h-screen mt-14">
-      <div className="mb-auto mt-12">
+    <div className="flex justify-center items-center w-full min-h-screen mt-20">
+      <div className="mb-20">
         <p className={`text-xl ${textColor}`}>Selamat Datang!</p>
         <p className={`text-8xl font-bold ${textColor}`}>LOMBAIN</p>
         <p className={`text-2xl ${textColor}`}>Cari kompetensi di ajang bergengsi!</p>
