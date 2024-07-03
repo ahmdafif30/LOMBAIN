@@ -10,13 +10,13 @@ function Navbar() {
           </a>
         </div>
         <div className="flex gap-12 items-center ml-auto px-10">
-          <a href="/" className="text-xl font-semibold text-white">
+          <a href="/" className="text-xl font-semibold text-white hover:text-slate-400">
             Home
           </a>
-          <a href="/about" className="text-xl font-semibold text-white">
+          <a href="/about" className="text-xl font-semibold text-white hover:text-slate-400">
             About
           </a>
-          <a href="/contact" className="text-xl font-semibold text-white">
+          <a href="/contact" className="text-xl font-semibold text-white hover:text-slate-400">
             Contact
           </a>
         </div>
