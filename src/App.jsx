@@ -7,8 +7,7 @@ import Home from "./pages/home";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
+      <Card />
     </div>
   );
 }
