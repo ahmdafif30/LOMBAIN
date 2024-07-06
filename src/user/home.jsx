@@ -16,7 +16,9 @@ function Home(props) {
           <p className={`text-2xl ${textColor}`}>Cari kompetensi di ajang bergengsi!</p>
           <p className="mt-3 text-lg font-semibold text-slate-400">Website penyedia informasi kompetensi akademik yang memiliki informasi terupdate</p>
           <div className="mt-10 flex gap-7">
-            <Button title="Buat Lomba" textColor="text-white" size="xl" />
+            <Link to={"/buatlomba"}>
+              <Button title="Buat Lomba" textColor="text-white" size="xl" />
+            </Link>
             <Link to={"/daftarlomba"}>
               <Button color="bg-white" title="Lihat Lomba" />
             </Link>

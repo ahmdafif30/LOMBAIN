@@ -1,32 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from "./pages/home.jsx";
+import Home from "./user/home.jsx";
 import Navbar from "./Navbar/navbar.jsx";
-import About from "./pages/about.jsx";
-import Contact from "./pages/contact.jsx";
+import About from "./user/about.jsx";
+import Contact from "./user/contact.jsx";
 import "boxicons";
-import DaftarLomba from "./pages/daftarlomba.jsx";
 import Lomba from "./components/Lomba.jsx";
+import BuatLomba from "./admin/buatlomba.jsx";
+import DaftarLomba from "./user/daftarlomba.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <Home />
-      </div>
-    ),
+    element: <Home />,
   },
   {
     path: "/about",
-    element: (
-      <div>
-        <About />
-      </div>
-    ),
+    element: <About />,
   },
   {
     path: "/contact",
@@ -35,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/lomba",
     element: <Lomba />,
+  },
+  {
+    path: "/buatlomba",
+    element: <BuatLomba />,
   },
   {
     path: "/daftarlomba",

@@ -41,7 +41,7 @@ const daftarLomba = [
   },
 ];
 
-const DaftarLomba = (props) => {
+const BuatLomba = (props) => {
   return (
     <div className=" items-center">
       <Navbar />
@@ -64,4 +64,4 @@ const DaftarLomba = (props) => {
   );
 };
 
-export default DaftarLomba;
+export default BuatLomba;
