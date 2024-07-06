@@ -10,6 +10,7 @@ const daftarLomba = [
     namaLomba: "The 15th Business Case Competition",
     penyelenggara: "PT Perkasa",
     tanggal: "17 Agustus 1945",
+    deskripsi: "",
   },
   {
     id: 2,
@@ -18,6 +19,25 @@ const daftarLomba = [
     namaLomba: "The 15th Business Case Competition",
     penyelenggara: "PT Perkasa",
     tanggal: "17 Agustus 1945",
+    deskripsi : "",
+  },
+  {
+    id: 2,
+    image: "./public/lomba/lomba1.jpg",
+    kategori: "Comedy",
+    namaLomba: "The 15th Business Case Competition",
+    penyelenggara: "PT Perkasa",
+    tanggal: "17 Agustus 1945",
+    deskripsi : "",
+  },
+  {
+    id: 2,
+    image: "./public/lomba/lomba1.jpg",
+    kategori: "Comedy",
+    namaLomba: "The 15th Business Case Competition",
+    penyelenggara: "PT Perkasa",
+    tanggal: "17 Agustus 1945",
+    deskripsi : "",
   },
 ];
 
