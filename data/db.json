@@ -1,0 +1,51 @@
+{
+  "daftarLomba": [
+    {
+      "id": "1",
+      "kategori": "Comedy",
+      "namaLomba": "The 15th Business Case Competition",
+      "penyelenggara": "PT Perkasa",
+      "tanggal": "17 Agustus 1945",
+      "deskripsi": "lomba fotografi",
+      "tanggalMulai": "2024-07-25",
+      "tanggalBerakhir": "2024-07-27"
+    },
+    {
+      "id": "2",
+      "image": "./public/lomba/lomba1.jpg",
+      "kategori": "Kerapihan",
+      "namaLomba": "Menulis",
+      "penyelenggara": "PT Perkasa",
+      "tanggal": "17 Agustus 1945",
+      "deskripsi": ""
+    },
+    {
+      "id": "3",
+      "image": "./public/lomba/lomba1.jpg",
+      "kategori": "keterampilan",
+      "namaLomba": "Menggambar",
+      "penyelenggara": "PT Perkasa",
+      "tanggal": "17 Agustus 1945",
+      "deskripsi": ""
+    },
+    {
+      "id": "4",
+      "image": "./public/lomba/lomba1.jpg",
+      "kategori": "Kreatifitas",
+      "namaLomba": "Lomba Mewarnai",
+      "penyelenggara": "Tadika Mesra",
+      "tanggal": "17 Agustus 2024",
+      "deskripsi": ""
+    },
+    {
+      "id": "a017",
+      "namaLomba": "mengetik",
+      "kategori": "IT",
+      "deskripsi": "lomba mengetik",
+      "penyelenggara": "amikom",
+      "tanggal": "",
+      "tanggalMulai": "2024-07-25",
+      "tanggalBerakhir": "2024-07-26"
+    }
+  ]
+}
